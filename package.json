@@ -1,0 +1,29 @@
+{
+  "name": "tanks-game",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "./src/game-app.js",
+  "module": "./src/game-app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "es-dev-server --app-index index.html --node-resolve --watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "irakli tabukashvili",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "gyp": "^0.5.0",
+    "lit-element": "^2.4.0",
+    "node-gyp": "^8.4.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "prpl-server": "^1.4.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
